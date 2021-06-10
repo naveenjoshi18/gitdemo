@@ -7,7 +7,8 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pwa';
+
+  title = 'Demo of PWA';
   vehicle:any;
 
   constructor(private data:DataService){ }
@@ -19,5 +20,6 @@ export class AppComponent {
     })
     
   }
+
 
 }
